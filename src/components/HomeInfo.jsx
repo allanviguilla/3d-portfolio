@@ -27,21 +27,21 @@ const renderContent = {
     <InfoBox
       text="I am passionate about design, technology, and constantly challenging myself to learn new things."
       link="/about"
-      btnText="About Myself"
+      btnText="About Allan"
     />
   ),
   3: (
     <InfoBox
       text="I have worked with teams of engineers and solo on passion projects to build some cool stuff."
       link="/work"
-      btnText="See Portfolio"
+      btnText="Allan's Portfolio"
     />
   ),
   4: (
     <InfoBox
       text="Ready to build something together?"
       link="mailto:viguilla.allan@gmail.com"
-      btnText="Contact Me"
+      btnText="Contact Allan"
     />
   ),
 };
