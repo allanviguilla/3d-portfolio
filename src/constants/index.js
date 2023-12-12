@@ -1,9 +1,7 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { logo } from "../assets/images";
 import {
-  car,
   contact,
   css,
-  estate,
   express,
   git,
   github,
@@ -11,18 +9,12 @@ import {
   javascript,
   linkedin,
   mongodb,
-  motion,
   mui,
   nextjs,
   nodejs,
-  pricewise,
   react,
-  redux,
   sass,
-  snapgram,
-  summiz,
   tailwindcss,
-  threads,
   typescript,
 } from "../assets/icons";
 
@@ -99,57 +91,41 @@ export const skills = [
   },
 ];
 
-export const experiences = [
+export const jobs = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Shopify Web Developer",
+    company_name: "Pure Essence Labs",
+    icon: logo,
     iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
+    date: "2021-2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed JavaScript snippets using G4 Analytics and Google Tag Manager to track customer conversion rate from product page to checkout",
+      "Perform ETL process to migrate customer subscription data from previous service to Recharge resulting in a 12% subscription increase",
+      "Designed and implemented new product pages, landing pages, and mobile versions of the Shopify store",
+    ],
+  },
+  {
+    title: "Junior Web Developer",
+    company_name: "Arsenal Inc.",
+    icon: logo,
+    iconBg: "#b7e4c7",
+    date: "2018-2021",
+    points: [
+      "Revamp Recurrly email campaign from image-based template to HTML-based template resulting in a 3% open rate increase",
+      "Designed and implemented new product pages, landing pages, and mobile versions of Ecommerce platform",
+      "Conduct content audit across the company's network of websites and update content to improve SEO performance",
+    ],
+  },
+  {
+    title: "Student Web Developer/Student Coordinator",
+    company_name: "Civic Engagement Computer Center @ NJIT",
+    icon: logo,
+    iconBg: "#fbc3bc",
+    date: "2015-2017",
+    points: [
+      "Engaged community organizations to gather user specifications and requirements for web projects",
+      "Developed code, reports, and data analysis for web projects",
+      "Supported community organizations to troubleshoot technical issues, create documentation, and training on how to update, maintain, and use web products",
     ],
   },
 ];
@@ -174,51 +150,30 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
     theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    name: "Libre",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "A full stack application that leverages Google Calendar API to share free time with your friends",
+    link: "https://github.com/allanviguilla/libre",
   },
   {
-    iconUrl: threads,
     theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    name: "Fresh Threadz",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      "A microservice API created with Nodejs and Postgres for Full Stack Ecommerce application",
+    link: "https://github.com/allanviguilla/Fresh-Threadz-QA",
   },
   {
-    iconUrl: car,
     theme: "btn-back-blue",
-    name: "Car Finding App",
-    description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+    name: "Atelier",
+    description: "An ecommerce product page front end created in React",
+    link: "https://github.com/allanviguilla/atelier-ecommerce-application",
   },
   {
-    iconUrl: snapgram,
     theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    name: "Floor Watchers",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
-  },
-  {
-    iconUrl: estate,
-    theme: "btn-back-black",
-    name: "Real-Estate Application",
-    description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
-    description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "A dynamic UI layout for product landing page of an NFT website",
+    link: "https://github.com/allanviguilla/floorwatchers-frontend-concept",
   },
 ];
