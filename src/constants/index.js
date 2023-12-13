@@ -1,4 +1,11 @@
-import { logo } from "../assets/images";
+import {
+  logo,
+  atelier,
+  floorwatchers,
+  freshthreadz,
+  libre,
+} from "../assets/images";
+
 import {
   contact,
   css,
@@ -150,6 +157,7 @@ export const socialLinks = [
 
 export const projects = [
   {
+    img: libre,
     theme: "btn-back-red",
     name: "Libre",
     description:
@@ -157,6 +165,7 @@ export const projects = [
     link: "https://github.com/allanviguilla/libre",
   },
   {
+    img: freshthreadz,
     theme: "btn-back-green",
     name: "Fresh Threadz",
     description:
@@ -164,12 +173,14 @@ export const projects = [
     link: "https://github.com/allanviguilla/Fresh-Threadz-QA",
   },
   {
+    img: atelier,
     theme: "btn-back-blue",
     name: "Atelier",
     description: "An ecommerce product page front end created in React",
     link: "https://github.com/allanviguilla/atelier-ecommerce-application",
   },
   {
+    img: floorwatchers,
     theme: "btn-back-pink",
     name: "Floor Watchers",
     description:

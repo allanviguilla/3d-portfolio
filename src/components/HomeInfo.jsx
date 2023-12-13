@@ -33,7 +33,7 @@ const renderContent = {
   3: (
     <InfoBox
       text="I have worked with teams of engineers and on solo passion projects to build some cool stuff."
-      link="/work"
+      link="/portfolio"
       btnText="Allan's Portfolio"
     />
   ),

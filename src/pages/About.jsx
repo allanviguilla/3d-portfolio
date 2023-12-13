@@ -38,6 +38,18 @@ const About = () => {
           I enjoy creating beautiful and intuitive user interfaces. I am
           passionate about Front End Engineering and User Experience.
         </p>
+        <div className="flex justify-center py-5">
+          <div className="btn">
+            <Link
+              to={resume}
+              download="resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Download Resume
+            </Link>
+          </div>
+        </div>
       </div>
 
       <div className="py-10 flex flex-col">
@@ -100,19 +112,6 @@ const About = () => {
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
-        </div>
-
-        <div className="flex justify-center py-5">
-          <div className="bg-blue-500 hover:bg-blue-700 py-2 px-4 rounded text-white font-semibold">
-            <Link
-              to={resume}
-              download="resume.pdf"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Download Resume
-            </Link>
-          </div>
         </div>
       </div>
 
